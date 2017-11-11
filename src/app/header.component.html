@@ -1,0 +1,24 @@
+<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light apscv-navbar">
+    <a class="navbar-brand" href="#">
+        <img src="/assets/images/logo.png" width="auto" height="50" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse" [ngClass]="{collapse: isCollapsed}">
+    <ul class="navbar-nav navbar-right mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+            <a class="nav-link" href="#services" pageScroll>Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#tarifs" pageScroll>Tarifs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#conseils" pageScroll>Conseils</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact" pageScroll>Contact</a>
+        </li>
+    </ul>
+</div>
+</nav>

@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+@font-face {
+    font-family: "Moon-Flower-Regular";
+    src: url("./assets/fonts/MoonFlowerRegular.ttf");
+}
+@font-face {
+    font-family: "Moon-Flower-Bold";
+    src: url("./assets/fonts/MoonFlowerBold.ttf");
+}
+@font-face {
+    font-family: "Coming-Soon-Regular";
+    src: url("./assets/fonts/ComingSoon.ttf");
+}
