@@ -135,7 +135,7 @@ a:hover {
 h1 {
     text-align: center;
     font-size: 1.8rem;
-    font-family: 'Coming-Soon-Regular', cursive !important;
+    font-family: 'Coming Soon', cursive !important;
     padding: 20px;
     margin-bottom: 0;
 }
@@ -143,13 +143,13 @@ h1 {
 h2 {
     text-align: center;
     font-size: 1.6rem;
-    font-family: 'Coming-Soon-Regular', cursive;
+    font-family: 'Coming Soon', cursive;
 }
 
 h3 {
     margin-top: 30px;
     font-size: 1.2rem;
-    font-family: 'Coming-Soon-Regular', cursive;
+    font-family: 'Coming Soon', cursive;
 }
 
 p {
