@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Coming Soon";
-    src: url("/fonts/ComingSoon.ttf");
+    src: url("/webfonts/ComingSoon.ttf");
 }
 @font-face {
     font-family: "Moon Flower Bold";
-    src: url("/fonts/MoonFlowerBold.ttf");
+    src: url("/webfonts/MoonFlowerBold.ttf");
 }
 
 /*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
