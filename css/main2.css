@@ -117,7 +117,6 @@ header {
 main {
     padding-top: 100px;
     padding-bottom: 1px;
-    background-color: #efefef;
 }
 
 footer {
@@ -167,10 +166,20 @@ p {
 }
 
 .section-title {
-    margin-bottom: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.section-title-soft {
+    color: rgba(0,0,0,0.4);
+    font-size: 17px;
+    font-family: 'Coming Soon', cursive;
+}
+
+.section-title-title {
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .section-content {
@@ -214,7 +223,7 @@ p {
     opacity: 0;
     border-radius: 5px;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,0.3);
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
 }
 
 .service-block:hover::after {
@@ -225,7 +234,6 @@ p {
     text-align: center;
     text-transform: uppercase;
     padding: 20px 10px;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .service-title > .fa {
@@ -235,8 +243,9 @@ p {
 
 .service-details {
     padding: 20px 10px;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    background-color: #f6f6f6;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.01);
 }
 
 .service-details-list {
@@ -254,8 +263,8 @@ p {
 
 .service-description {
     padding: 20px 10px;
-    font-size: 14px;
-    color: rgba(0,0,0,0.5);
+    font-size: 13px;
+    color: rgba(0,0,0,0.6);
     text-align: center;
 }
 
@@ -306,6 +315,13 @@ p {
     display: block;
     font-size: 24px;
     font-weight: 600;
+}
+
+.intervention-map {
+    padding: 0;
+    height: 500px;
+    background: url(/img/intervention.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .contact-title {
