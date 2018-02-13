@@ -145,11 +145,14 @@ header {
 main {
     padding-top: 76px;
     padding-bottom: 1px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
 }
 
 footer {
     padding-top: 20px;
-    background-color: white;
+    background-color: rgba(0,0,0,0.01);
+    color: rgba(0,0,0,0.7);
 }
 
 section {
@@ -394,6 +397,11 @@ p {
     .apscv-navbar {
         justify-content: space-between !important;
     }
+}
+
+.footer-link {
+    color: inherit;
+    text-decoration: underline;
 }
 
 /* ==========================================================================
