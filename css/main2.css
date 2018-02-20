@@ -305,7 +305,7 @@ p {
 }
 
 .service-footer {
-    padding: 20px 10px 60px;
+    padding: 20px 10px 70px;
     position: relative;
 }
 
@@ -344,13 +344,19 @@ p {
 }
 
 .service-price-small {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .service-price-price {
     display: block;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 600;
+}
+
+.service-price-asterisk {
+    font-size: 10px;
+    line-height: 12px;
+    color: white;
 }
 
 .intervention-map {
@@ -376,8 +382,8 @@ p {
     color: #629E52;
     border: 2px solid #629E52;
     border-radius: 50%;
-    width: 50%;
-    padding-top: 50%;
+    width: 65px;
+    height: 65px;
     position: relative;
     margin: auto;
 }
