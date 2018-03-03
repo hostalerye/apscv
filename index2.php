@@ -1,85 +1,17 @@
 <!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Aux Petits Soins Chez Vous</title>
-        <base href="/">
-        <meta name="description" content="Service à la personne, ménage régulier et complet, aide à la préparation de repas, garde d'enfants de +3ans et accompagnement périscolaire dans le secteur de Jurançon, Billère, Uzos, Bizanos, Gan, Rontignon, Gelos et Mazères-Lezons">
-        <meta name="keywords" content="aux petits soins chez vous, service a la personne, ménage, garde d'enfants, accompagnement périscolaire, repas, Jurançon, Billère, Uzos, Bizanos, Gan, Rontignon, Gelos, Mazères-Lezons">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="canonical" href="https://www.auxpetitssoinschezvous.fr" />
-
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link rel="manifest" href="manifest.json">
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-        <script type="application/ld+json">
-        {
-            "@context": "http://schema.org/",
-            "@type": "LocalBusiness",
-            "openingHours": "Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi 08h - 20h",
-            "paymentAccepted": "Virement, Cheque",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "France",
-                "addressLocality": "Jurançon",
-                "postalCode": "64110"
-            },
-            "areaServed": "Jurançon, Billère, Uzos, Bizanos, Gan, Rontignon, Gelos et Mazères-Lezons",
-            "email": "auxpetitssoinschezvous@gmail.com",
-            "telephone": "+33646754283",
-            "image": "https://www.auxpetitssoinschezvous.fr/img/logo.png",
-            "logo": "https://www.auxpetitssoinschezvous.fr/img/logo.png",
-            "name": "Aux Petits Soins Chez Vous",
-            "url": "https://www.auxpetitssoinschezvous.fr",
-            "priceRange": "A partir de 18€/h"
-        }
-        </script>
-        <link rel="manifest" href="site.webmanifest">
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main2.css">
-        <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    </head>
+<html class="no-js" lang="fr">
+    <?php include './partials/head.php' ?>
     <body>
-        <header class="fixed-top">
-            <nav class="navbar navbar-expand-md navbar-light apscv-navbar">
-                <a class="navbar-brand" href="/">
-                    <img alt="" class="d-inline-block align-top" src="/img/logo.png" width="auto" height="50">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuCollapse">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse" id="menuCollapse">
-                    <ul class="navbar-nav navbar-right ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Présentation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/tarifs.html">Tarifs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/conseils.html">Conseils</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact.php">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <?php $active = 'accueil' ?>
+        <?php include './partials/header.php' ?>
         <main>
-            <section id="services">
+            <section>
                 <div class="container section-container">
                     <div class="row align-items-stretch justify-content-between">
                         <div class="service-block">
                             <div class="service-body">
                                 <div class="service-title">
-                                    <i class="fa fa-home"></i>
+                                    <div class="circled-icon"><i class="fas fa-home"></i></div>
                                     <h3>Entretien du domicile</h3>
                                 </div>
                                 <div class="service-details">
@@ -94,7 +26,6 @@
                             </div>
                             <div class="service-footer">
                                 <div class="service-buttons">
-                                    <button type="button" class="btn btn-outline-primary">En savoir plus</button>
                                     <button type="button" class="btn btn-primary">Demander un devis</button>
                                 </div>
                                 <div class="service-price">
@@ -108,7 +39,7 @@
                         <div class="service-block">
                             <div class="service-body">
                                 <div class="service-title">
-                                    <i class="fa fa-child"></i>
+                                    <div class="circled-icon"><i class="fas fa-child"></i></div>
                                     <h3>Garde d'enfants</h3>
                                 </div>
                                 <div class="service-details">
@@ -123,7 +54,6 @@
                             </div>
                             <div class="service-footer">
                                 <div class="service-buttons">
-                                    <button type="button" class="btn btn-outline-primary">En savoir plus</button>
                                     <button type="button" class="btn btn-primary">Demander un devis</button>
                                 </div>
                                 <div class="service-price">
@@ -137,7 +67,7 @@
                         <div class="service-block">
                             <div class="service-body">
                                 <div class="service-title">
-                                    <i class="fa fa-utensils"></i>
+                                    <div class="circled-icon"><i class="fas fa-utensils"></i></div>
                                     <h3>Préparation de repas</h3>
                                 </div>
                                 <div class="service-details">
@@ -152,7 +82,6 @@
                             </div>
                             <div class="service-footer">
                                 <div class="service-buttons">
-                                    <button type="button" class="btn btn-outline-primary">En savoir plus</button>
                                     <button type="button" class="btn btn-primary">Demander un devis</button>
                                 </div>
                                 <div class="service-price">
@@ -166,7 +95,7 @@
                 </div>
             </section>
 
-            <section id="zone">
+            <section>
                 <div class="container section-container">
                     <div class="row">
                         <div class="section-title col-12">
@@ -179,7 +108,7 @@
                 </div>
             </section>
 
-            <section id="avantages">
+            <section>
                 <div class="container section-container">
                     <div class="row">
                         <div class="section-title col-12">
@@ -187,65 +116,33 @@
                             <div class="section-title-soft">Pourquoi choisir Aux Petits Soins Chez Vous ?</div>
                         </div>
                         <div class="col-6 col-sm-4 col-lg-2 advantage">
-                            <div class="advantage-icon"><i class="far fa-building"></i></div>
+                            <div class="circled-icon circled-icon-shadowed"><i class="far fa-building"></i></div>
                             <div class="advantage-text">Entreprise inscrite au registre de la <a href="http://www.cma64.fr/">CMA</a></div>
                         </div>
                         <div class="col-6 col-sm-4 col-lg-2 advantage">
-                            <div class="advantage-icon"><i class="fas fa-percent"></i></div>
+                            <div class="circled-icon circled-icon-shadowed"><i class="fas fa-percent"></i></div>
                             <div class="advantage-text">Avantage fiscal (reduction ou crédit d'impôt)</div>
                         </div>
                         <div class="col-6 col-sm-4 col-lg-2 advantage">
-                            <div class="advantage-icon"><i class="far fa-handshake"></i></div>
+                            <div class="circled-icon circled-icon-shadowed"><i class="far fa-handshake"></i></div>
                             <div class="advantage-text">Assurance casse comprise</div>
                         </div>
                         <div class="col-6 col-sm-4 col-lg-2 advantage">
-                            <div class="advantage-icon"><i class="fas fa-euro-sign"></i></div>
+                            <div class="circled-icon circled-icon-shadowed"><i class="fas fa-euro-sign"></i></div>
                             <div class="advantage-text">Aucun frais de gestion ou de dossier</div>
                         </div>
                         <div class="col-6 col-sm-4 col-lg-2 advantage">
-                            <div class="advantage-icon"><i class="far fa-file-alt"></i></div>
+                            <div class="circled-icon circled-icon-shadowed"><i class="far fa-file-alt"></i></div>
                             <div class="advantage-text">Devis et analyse de vos besoins gratuits</div>
                         </div>
                         <div class="col-6 col-sm-4 col-lg-2 advantage">
-                            <div class="advantage-icon"><i class="far fa-thumbs-up"></i></div>
+                            <div class="circled-icon circled-icon-shadowed"><i class="far fa-thumbs-up"></i></div>
                             <div class="advantage-text">Pas de charges patronales</div>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
-        <footer>
-            <div class="text-center">
-                <a class="footer-contact-link" href="mailto:auxpetitssoinschezvous@gmail.com"><i class="fas fa-at"></i></a>
-                <a class="footer-contact-link" href="tel:+33646754283"><i class="fas fa-phone"></i></a>
-                <a class="footer-contact-link" href="https://www.facebook.com/auxpetitssoinschezvous" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            </div>
-            <div class="text-center small">
-                © 2018 Aux Petits Soins Chez Vous - <a class="footer-link" href="/mentions.html">Mentions légales</a><br>
-                832 121 016 RM 64<br>
-                Déclaration/Agrément n° SAP832121016
-            </div>
-            <div class="mt-2 text-center">
-                <img src="/img/logo_sap.png" width="60px">
-            </div>
-        </footer>
-
-        <!-- JS -->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109607207-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-109607207-1');
-        </script>
+        <?php include './partials/footer.php' ?>
     </body>
 </html>

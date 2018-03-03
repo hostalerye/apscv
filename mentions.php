@@ -1,80 +1,8 @@
 <!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Aux Petits Soins Chez Vous</title>
-        <base href="/">
-        <meta name="description" content="Service à la personne, ménage régulier et complet, aide à la préparation de repas, garde d'enfants de +3ans et accompagnement périscolaire dans le secteur de Jurançon, Billère, Uzos, Bizanos, Gan, Rontignon, Gelos et Mazères-Lezons">
-        <meta name="keywords" content="aux petits soins chez vous, service a la personne, ménage, garde d'enfants, accompagnement périscolaire, repas, Jurançon, Billère, Uzos, Bizanos, Gan, Rontignon, Gelos, Mazères-Lezons">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="canonical" href="https://www.auxpetitssoinschezvous.fr" />
-
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link rel="manifest" href="manifest.json">
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-        <script type="application/ld+json">
-            {
-                "@context": "http://schema.org/",
-                "@type": "LocalBusiness",
-                "openingHours": "Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi 08h - 20h",
-                "paymentAccepted": "Virement, Cheque",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressCountry": "France",
-                    "addressLocality": "Jurançon",
-                    "postalCode": "64110"
-                },
-                "areaServed": "Jurançon, Billère, Uzos, Bizanos, Gan, Rontignon, Gelos et Mazères-Lezons",
-                "email": "auxpetitssoinschezvous@gmail.com",
-                "telephone": "+33646754283",
-                "image": "https://www.auxpetitssoinschezvous.fr/img/logo.png",
-                "logo": "https://www.auxpetitssoinschezvous.fr/img/logo.png",
-                "name": "Aux Petits Soins Chez Vous",
-                "url": "https://www.auxpetitssoinschezvous.fr",
-                "priceRange": "A partir de 18€/h"
-            }
-            </script>
-        <link rel="manifest" href="site.webmanifest">
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main2.css">
-        <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    </head>
+<html class="no-js" lang="fr">
+    <?php include './partials/head.php' ?>
     <body>
-        <header class="fixed-top">
-            <nav class="navbar navbar-expand-md navbar-light apscv-navbar">
-                <a class="navbar-brand" href="#">
-                    <img alt="" class="d-inline-block align-top" src="/img/logo.png" width="auto" height="50">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse" id="menuCollapse">
-                    <ul class="navbar-nav navbar-right ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#tarifs">Tarifs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#conseils">Conseils</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#avantages">Avantages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <?php include './partials/header.php' ?>
         <main>
             <section id="mentions">
                 <div class="container section-container">
@@ -147,38 +75,6 @@
                 </div>
             </section>
         </main>
-        <footer>
-            <div class="text-center">
-                <a class="footer-contact-link" href="mailto:auxpetitssoinschezvous@gmail.com"><i class="fas fa-at"></i></a>
-                <a class="footer-contact-link" href="tel:+33646754283"><i class="fas fa-phone"></i></a>
-                <a class="footer-contact-link" href="https://www.facebook.com/auxpetitssoinschezvous" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            </div>
-            <div class="text-center small">
-                © 2018 Aux Petits Soins Chez Vous - <a class="footer-link" href="/mentions.html">Mentions légales</a><br>
-                832 121 016 RM 64<br>
-                Déclaration/Agrément n° SAP832121016
-            </div>
-            <div class="mt-2 text-center">
-                <img src="/img/logo_sap.png" width="60px">
-            </div>
-        </footer>
-
-        <!-- JS -->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109607207-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-109607207-1');
-        </script>
+        <?php include './partials/footer.php' ?>
     </body>
 </html>
