@@ -5,7 +5,7 @@
         <a class="footer-contact-link" href="https://www.facebook.com/auxpetitssoinschezvous" target="_blank"><i class="fab fa-facebook-f"></i></a>
     </div>
     <div class="text-center small">
-        © 2018 Aux Petits Soins Chez Vous - <a class="footer-link" href="/mentions.html">Mentions légales</a><br>
+        © 2018 Aux Petits Soins Chez Vous - <a class="footer-link" href="/mentions.php">Mentions légales</a><br>
         832 121 016 RM 64<br>
         Déclaration/Agrément n° SAP832121016
     </div>

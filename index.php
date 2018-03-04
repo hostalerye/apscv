@@ -26,7 +26,7 @@
                             </div>
                             <div class="service-footer">
                                 <div class="service-buttons">
-                                    <button type="button" class="btn btn-primary">Demander un devis</button>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#quoteModal" data-prestation="entretien du domicile">Demande de renseignements</button>
                                 </div>
                                 <div class="service-price">
                                     <span class="service-price-small">A partir de</span>
@@ -54,7 +54,7 @@
                             </div>
                             <div class="service-footer">
                                 <div class="service-buttons">
-                                    <button type="button" class="btn btn-primary">Demander un devis</button>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#quoteModal" data-prestation="garde d'enfants">Demande de renseignements</button>
                                 </div>
                                 <div class="service-price">
                                     <span class="service-price-small">A partir de</span>
@@ -82,7 +82,7 @@
                             </div>
                             <div class="service-footer">
                                 <div class="service-buttons">
-                                    <button type="button" class="btn btn-primary">Demander un devis</button>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#quoteModal" data-prestation="préparation de repas">Demande de renseignements</button>
                                 </div>
                                 <div class="service-price">
                                     <span class="service-price-small">A partir de</span>

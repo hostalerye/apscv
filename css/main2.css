@@ -64,12 +64,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: none;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: none;
     text-shadow: none;
 }
 
@@ -198,6 +198,10 @@ p {
     margin-left: 20px;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .section-title {
     margin: 20px 0;
     text-align: center;
@@ -310,26 +314,35 @@ p {
     position: relative;
 }
 
-.service-buttons > .btn-outline-primary {
+.btn-outline-primary {
     color: #629E52;
     background: transparent none;
     border-color: #629E52;
-    width: 100%;
     margin-bottom: 10px;
 }
 
-.service-buttons > .btn-primary {
+.btn-primary {
     color: #fff;
     background-color: #629E52;
     border-color: #629E52;
-    width: 100%;
 }
 
-.service-buttons > .btn-primary:hover,
-.service-buttons > .btn-outline-primary:hover {
-    color: #fff;
-    background-color: #418031;
-    border-color: #418031;
+.btn-primary:hover,
+.btn-primary:active,
+.btn-outline-primary:hover,
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: #418031 !important;
+    border-color: #418031 !important;
+}
+
+.btn-primary:focus,
+.btn-outline-primary:focus {
+    box-shadow: none !important;
+}
+
+.service-buttons .btn-primary {
+    width: 100%;
 }
 
 .service-price {
