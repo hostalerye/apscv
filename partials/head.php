@@ -36,6 +36,7 @@
             "paymentAccepted": "Virement, Cheque",
             "address": {
                 "@type": "PostalAddress",
+                "streetAddress": "Chemin des Côteaux de Guindalos",
                 "addressCountry": "France",
                 "addressLocality": "Jurançon",
                 "postalCode": "64110"
