@@ -18,7 +18,21 @@
         {
             "@context": "http://schema.org/",
             "@type": "LocalBusiness",
-            "openingHours": "Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi 08h - 20h",
+            "@id": "https://www.auxpetitssoinschezvous.fr",
+            "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "20:00"
+                }
+            ],
             "paymentAccepted": "Virement, Cheque",
             "address": {
                 "@type": "PostalAddress",
